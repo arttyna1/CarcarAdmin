@@ -1,0 +1,102 @@
+.bg-section {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.modal3 {
+    margin-top: 50%;
+    position: relative;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+.font-size {
+    font-size: 3em;
+}
+.h4{
+    font-size: 24px;
+    font-style: oblique;
+}
+#main-slider {
+    overflow: hidden;
+    position: relative;
+    top: -100px;
+  } 
+  #main-slider .item {
+    height: 625px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+  #main-slider .slider-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    z-index: 99;
+  }
+  #main-slider .slider-inner h2 {
+    margin-top: 25%;
+    font-size: 39px;
+    line-height: 49px;
+    color: #fff;
+    font-size: 34px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.53);
+    text-align: left;
+  }
+  #main-slider .slider-inner h2 > span {
+  }
+  #main-slider .slider-inner .btn {
+    margin-top: 10px;
+    background-color: #D91D1D;
+    color: #FFF;
+    font-size: 14px;
+  }
+  #main-slider .owl-prev,
+  #main-slider .owl-next {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.31);
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: -35px;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    z-index: 5;
+    -webkit-transition: background-color 400ms;
+    transition: background-color 400ms;
+  }
+  #main-slider .owl-prev:hover,
+  #main-slider .owl-next:hover {
+    background-color: #199cdb;
+  }
+  #main-slider .owl-prev {
+    left: -35px;
+    text-indent: 14px;
+  }
+  #main-slider .owl-next {
+    right: -35px;
+    text-indent: -14px;
+  }
+  #main-slider .item:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      /* background: rgba(42, 42, 50, 0.14); */
+      z-index: 1;
+  }
+  .thea{
+    text-align:center;
+    
+  }

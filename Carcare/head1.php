@@ -1,0 +1,68 @@
+
+  <title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="CSS/bootstrap.min.CSS">
+    <link rel="stylesheet" href="style.css">
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+
+
+    <link rel="stylesheet" href="style.css">
+	<style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Itim);
+      body{
+        font-size: 19px;
+		font-family: 'Itim', sans-serif;
+		background: url(image/home.png) no-repeat center center;
+      }
+    </style>
+      <!--nevbar -->
+<head>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #528B8B;">
+        <img src="/Carcare/image/logo.png" width="80" height="70" class="d-inline-block align-top" alt="">
+  <a class="navbar-brand" href="index.php">CentralCarcare</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="allow_admin.php">อนุมัติการลงทะเบียน<span class="sr-only">(current)</span></a>
+      </li> &emsp;&emsp;
+      <li class="nav-item active">
+        <a class="nav-link" href="listcarcare_admin.php">เพิ่มข้อมูลร้านคาร์แคร์<span class="sr-only">(current)</span></a>
+      </li>&emsp;&emsp;
+    </ul>
+    
+  </div>
+  <ul class="nav justify-content-end">
+
+  </li>
+
+  </form>
+</ul>
+</nav>
+<div class="jumbotron jumbotron-fluid bg-section text-black">
+  <div class="container">
+    <h1 class="display-4 font-size">ระบบจัดการข้อมูลสำหรับผู้ดูแลระบบ</h1>
+    <p class="lead">System manage Data by Admin</p>
+  </div>
+</div>
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
